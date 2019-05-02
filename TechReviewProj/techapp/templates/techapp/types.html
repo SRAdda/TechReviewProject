@@ -1,0 +1,7 @@
+def getTypes(request):
+types_list=TechType.objects.all()
+context={'types_list' : types_list }
+return render(request, 'TechReviewApp/types.html', context=context)
+
+def getProducts(request):
+product_list=Product(request)
