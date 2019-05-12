@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse
 from .models import TechType, TechProduct, TechReview
-# from .forms import TechProductForm, TechReviewForm
+ from .forms import TechProductForm, TechReviewForm
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 
