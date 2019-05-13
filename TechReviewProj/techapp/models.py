@@ -9,8 +9,9 @@ class TechType(models.Model):
 
     def __str__(self): 
         return self.typename
-        class Meta:
-            db_table='techtype'
+        
+    class Meta:
+        db_table='techtype'
 
 
 class TechProduct(models.Model):
